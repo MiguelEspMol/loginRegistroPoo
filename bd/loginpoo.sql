@@ -1,4 +1,4 @@
-CREATE TABLE `auxiliares_proyecto`.`persona`  (
+CREATE TABLE `cafeteria_donbosco`.`persona`  (
   `id_persona` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paterno_nombre` varchar(55) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
