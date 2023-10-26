@@ -7,7 +7,7 @@
         public $direccion = 'root';
         public $celular = 'root';
         public $password = '';
-        public $database = 'auxiliares_proyecto';
+        public $database = 'cafeteria_donbosco';
         public $port = 3306;
 
         public function conectar() {

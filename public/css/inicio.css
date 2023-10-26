@@ -1,4 +1,22 @@
-.body {
-  background-color: #6587bb;
+body {
+  background-color: white;
 }
+
+.navbar {
+  background-color: #17375e;
+}
+
+.navbar-nav li.nav-item a {
+  background-color: #FFDB58;
+  border-radius: 15px;
+  color: #FFF;
+  transition: background-color 0.4s; /* Agrega una transición suave */
+}
+
+/* Cambia el color de fondo al poner el mouse sobre los enlaces del menú al color del nav */
+.navbar-nav li.nav-item a:hover {
+  background-color: #17375e; /* Color de fondo igual al del nav al poner el mouse sobre el enlace */
+  color: #FFF;
+}
+
 
